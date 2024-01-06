@@ -1,16 +1,18 @@
-# TP: Problema del Viajante (TSP)
-Solver de TSP en Python. 
+# Traveling Salesman Problem (TSP) Solver
 
-Consultar enunciado en el campus virtual de la materia.
+TSP Solver implemented in Python.
 
-## Algoritmos ya implementados
-1. Ascensión de colinas (hill climbing).
+## Algorithms
+1. Hill Climbing.
+2. Random Restart Hill Climbing.
+3. Tabu Search.
 
-## Algoritmos a implementar
-2. Ascensión de colinas con reinicio aleatorio (random restart hill climbing).
-3. Búsqueda tabú (tabu search).
-
-## Requerimientos
-* Python 3.10 o superior (https://www.python.org/downloads/).
+## Requirements
+* Python 3.10 or higher.
 * tsplib95.
 * matplotlib.
+
+## How to Use
+```bash
+pip install -r requirements.txt
+python3 main.py instances/ar24.tsp
